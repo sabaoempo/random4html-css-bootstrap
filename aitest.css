@@ -1,0 +1,121 @@
+body {/*background*/
+    z-index: 1;
+    background-image: url(https://images.unsplash.com/photo-1518457032933-2da6b92f088e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e7cdcdd8b7cac0d9ace8a54ecccb9cf9&auto=format&fit=crop&w=1651&q=80);
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+header {/*element header where the id title is displayed*/
+    background-image: linear-gradient(#636363, #a2ab58);
+    margin: 0px;
+    max-width: 100%;
+    height: 100px;
+}
+#title{/*id for the "Applied Artificial Intelligence"*/
+    position: relative;
+    left: 3%;
+    font-family: sans-serif;
+    color: white;
+    top: 35px;
+    font-size: xx-large;
+}
+#list{/*navigation list with some links (home et al). This refers to the ul element*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111111;
+}
+.list{/*class for li element*/
+    float: left;
+    padding: 16px;
+    text-decoration: none;
+    background-color: #111111;
+}
+.common:hover{/*class for anchors*/
+    background-color: gray;
+    padding: 30px;
+}
+.common{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#information{/*id for the section element where lorem ipsum is displayed*/
+    display: block;
+    background-image: linear-gradient(#636363, #a2ab58);
+    border-radius: 5px;
+    margin: auto;
+    width: 50%;
+}
+#section_title{/*To accelerate et al*/
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+}
+#lorem_ipsum{/*random description*/
+    color: white;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+#logintext{/*Log in to see your account*/
+    color: white;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+#form{/*login formulary*/
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+input{/*login boxes to enter email and password*/
+    border-radius: 3px;
+    width: 30%;
+    padding: 10px 20px;
+}
+.login {/*input design*/
+    background-color: lightgray;
+    color: black;
+    font-family: sans-serif;
+    border: none;
+}
+#loginbutton{/*literally*/
+    width: 30%;
+    background-color: #111111;
+    color: white;
+    font-family: sans-serif;
+    font-size: large;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+#createaccount{/*"doesn't have an account yet?"*/
+    color: white;
+    background-color: inherit;
+    font-family: sans-serif;
+    font-size: small;
+}
+#createaccountanchor:link, #createaccountanchor:visited{/*link to create an account*/
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+}
+#createaccountanchor:hover{
+    background-color: #111111;
+    border-radius: 5px;
+    padding: 5px;
+}
